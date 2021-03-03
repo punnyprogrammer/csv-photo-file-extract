@@ -1,0 +1,23 @@
+{
+  "name": "smith-csv-expand-files",
+  "version": "1.0.0",
+  "description": "A script to expand a CSV file's photos to duplicate rows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punnyprogrammer/smith_csv_expand_files.git"
+  },
+  "author": "Ben Eckenroed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/punnyprogrammer/smith_csv_expand_files/issues"
+  },
+  "homepage": "https://github.com/punnyprogrammer/smith_csv_expand_files#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  }
+}
