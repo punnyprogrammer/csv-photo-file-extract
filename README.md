@@ -1,12 +1,12 @@
-#CSV Multi Photo File Extractor
+# CSV Multi Photo File Extractor
 
 Welcome to a little NodeJS (aka, JavaScript) project. This project will show you how to code (hopefully) while providing  you a useful tool. Many in the industry need little utilities like this and have some basic knowledge of scripts. So by putting it in a more common language with some context around how it works, it should make it easier for you to manipulate and use on your own. 
 
-##Prerequisites
+## Prerequisites
 Before you can run this, you need to make sure you have NodeJS installed. Node is a JavaScript Framework that allows you to write scripts that can be run natively from a command line, or in some cases, can even be used to compile down to native code. (Meaning, you can write iPhone Apps, and Desktop apps in JavaScript thanks to Node. But that's not what this project is about). 
 
-###Installing Node
-####Mac
+### Installing Node
+#### Mac
 If you are using a Mac ... good for you. That's my weapon of choice when programming. You're already on the right path. You're likely to be more successful than anyone trying to do programming from a smelly windows machine or a perfectly fine Linux Machine such as Ubuntu. Since Mac's run on Linux, it's really Linux we are after. But I digress....
 
 **HomeBrew**
@@ -19,10 +19,10 @@ brew install node@14
 
 You can install whichever node version you want. 
 
-####Windows
+#### Windows
 If you are using Windows, you can install NodeJS using their Windows Installer. https://nodejs.org/en/download/ That's all the Windows Support I offer. However, there is a robust community of Node developers on Windows that you can find on search engines. 
 
-###Installing Git
+### Installing Git
 You're also going to need Git so you can clone down this Repo. Again, Homebrew makes it easy. 
 ```
 brew install git
@@ -35,7 +35,12 @@ Now we are ready to clone the app. If you're seeing this from GitHub, you can ge
 ```
 git clone [repo] [directoryNameYouWantItCalled]
 ```
-
+### Installing Dependencies 
+Now that we have the repo , we need to pop into the cloned directory from a terminal and install the dependencies. 
+```
+npm install
+```
+All the dependencies should install and then we are ready to run the script. 
 ## Running the Script
 Once you have the script cloned, you can run it from your terminal. Just open a terminal into the directory of the code and type "node index.js". 
 
