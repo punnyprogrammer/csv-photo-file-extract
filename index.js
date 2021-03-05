@@ -82,12 +82,12 @@ fs.createReadStream(inputFile)
   // You are going to see references to the "Helpers" for the first time.
   // Feel free to jump into "helpers.js" and take a look at what we are
   // doing when we call those functions.
+    let compiledRows = helpers.extractMultiRowsFromRow(row)
+    helpers.addCompiledRows(compiledRows)
 })
 .on('end', () => {
-  // Once the file is done being read, we can just display a message
-  // to the console.
-  console.log('CSV File Fully Read')
+  // Once all of the records have been read, and everything is done
+  // then this block fo text will be excuted. We will use our helpers
+  // function to write the file to disk. 
+  helpers.outputFile()
 })
-
-// Display a message in the terminal window to the user
-console.log('Good News, we made it to the last line.')
